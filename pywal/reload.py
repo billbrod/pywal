@@ -91,8 +91,8 @@ def colors(cache_dir=CACHE_DIR):
 def env(xrdb_file=None, tty_reload=True):
     """Reload environment."""
     xrdb(xrdb_file)
-    i3()
-    bspwm()
+    # i3()
+    # bspwm()
     kitty()
     sway()
     polybar()
